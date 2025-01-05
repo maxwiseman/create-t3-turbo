@@ -3,6 +3,11 @@ description: Create a bug report to help us improve
 title: "bug: "
 labels: ["🐞❔ unconfirmed bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Questions and feature requests should be posted as Discussions, not Issues
   - type: textarea
     attributes:
       label: Provide environment information
